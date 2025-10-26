@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -12,7 +12,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Award, BarChart, Building, Circle, Dumbbell, Handshake, Heart, Linkedin, MessageCircle, Settings, Target, TrendingUp, Trophy, UserCheck, Users, Waves, Zap } from "lucide-react";
+import { Award, BarChart, Building, Circle, Dumbbell, Handshake, Heart, Linkedin, MessageCircle, Settings, Target, TrendingUp, Trophy, Twitter, UserCheck, Users, Waves, Zap, Globe, Instagram } from "lucide-react";
 
 export default function Page() {
   return (
@@ -196,8 +196,8 @@ export default function Page() {
               imageSrc: "https://images.pexels.com/photos/3912516/pexels-photo-3912516.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Mike Johnson professional coach",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/mikejohnson" },
-                { icon: "Twitter", url: "https://twitter.com/mikejohnsoncoach" }
+                { icon: Linkedin, url: "https://linkedin.com/in/mikejohnson" },
+                { icon: Twitter, url: "https://twitter.com/mikejohnsoncoach" }
               ]
             },
             {
@@ -208,8 +208,8 @@ export default function Page() {
               imageSrc: "https://images.pexels.com/photos/6740339/pexels-photo-6740339.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Sarah Davis professional coach",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/sarahdavis" },
-                { icon: "Globe", url: "https://sarahdaviscoaching.com" }
+                { icon: Linkedin, url: "https://linkedin.com/in/sarahdavis" },
+                { icon: Globe, url: "https://sarahdaviscoaching.com" }
               ]
             },
             {
@@ -220,8 +220,8 @@ export default function Page() {
               imageSrc: "https://images.pexels.com/photos/6456299/pexels-photo-6456299.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Alex Rodriguez professional coach",
               socialLinks: [
-                { icon: "Instagram", url: "https://instagram.com/alexrodriguezfit" },
-                { icon: "Twitter", url: "https://twitter.com/alexfitness" }
+                { icon: Instagram, url: "https://instagram.com/alexrodriguezfit" },
+                { icon: Twitter, url: "https://twitter.com/alexfitness" }
               ]
             }
           ]}
